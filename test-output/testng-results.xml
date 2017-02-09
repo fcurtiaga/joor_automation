@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[=======================================================================================================================
+Starting Execution for: sendMessageToAllConnectins || TEST-001: Verify that the user will be able to send an email to All My Connections with out attachments
+Browser: CHROME
+Time Start Test: 2:30:24
+]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to JOORAccess website.]]>
+    </line>
+    <line>
+      <![CDATA[Log into JOOR system]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Send a Message button]]>
+    </line>
+    <line>
+      <![CDATA[Composing the email to be sent to ALL connections]]>
+    </line>
+    <line>
+      <![CDATA[Click on Send button]]>
+    </line>
+    <line>
+      <![CDATA[Go to Sent view]]>
+    </line>
+    <line>
+      <![CDATA[Verifying if the email was correctly sent out]]>
+    </line>
+    <line>
+      <![CDATA[---TEST CASE PASSED---
+______________________________________________________________________________________________________________________]]>
+    </line>
+    <line>
+      <![CDATA[______________________________________________________________________________________________________________________
+Finishing Execution for: sendMessageToAllConnectins || TEST-001: Verify that the user will be able to send an email to All My Connections with out attachments
+Application: JOOR
+Browser: CHROME
+Time Start Test: 2:30:46
+=======================================================================================================================]]>
+    </line>
+    <line>
+      <![CDATA[=======================================================================================================================
+Starting Execution for: sendMessageToAllConnectins || TEST-002: Verify that the user will be able to send an email to Specific Connection (Random) with out attachments
+Browser: CHROME
+Time Start Test: 2:30:55
+]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to JOORAccess website.]]>
+    </line>
+    <line>
+      <![CDATA[Log into JOOR system]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Send a Message button]]>
+    </line>
+    <line>
+      <![CDATA[Composing the email to be sent to specific connection]]>
+    </line>
+    <line>
+      <![CDATA[Click on Send button]]>
+    </line>
+    <line>
+      <![CDATA[Go to Sent view]]>
+    </line>
+    <line>
+      <![CDATA[Verifying if the email was correctly sent out]]>
+    </line>
+    <line>
+      <![CDATA[---TEST CASE PASSED---
+______________________________________________________________________________________________________________________]]>
+    </line>
+    <line>
+      <![CDATA[______________________________________________________________________________________________________________________
+Finishing Execution for: sendMessageToAllConnectins || TEST-002: Verify that the user will be able to send an email to Specific Connection (Random) with out attachments
+Application: JOOR
+Browser: CHROME
+Time Start Test: 2:31:21
+=======================================================================================================================]]>
+    </line>
+  </reporter-output>
+  <suite name="SendMessageTests" duration-ms="60677" started-at="2017-02-09T05:30:24Z" finished-at="2017-02-09T05:31:24Z">
+    <groups>
+    </groups>
+    <test name="SendMessageToAll" duration-ms="30154" started-at="2017-02-09T05:30:24Z" finished-at="2017-02-09T05:30:54Z">
+      <class name="com.joormessage.tests.SendMessageToAllTest">
+        <test-method status="PASS" signature="before(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.joormessage.tests.SendMessageToAllTest@18be83e4]" name="before" is-config="true" duration-ms="22" started-at="2017-02-09T02:30:24Z" finished-at="2017-02-09T02:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.joormessage.tests.SendMessageToAllTest.sendMessageToAllConnectins()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=sendMessageToAllConnectins status=SUCCESS method=SendMessageToAllTest.sendMessageToAllConnectins()[pri:0, instance:com.joormessage.tests.SendMessageToAllTest@18be83e4] output=Navigating to JOORAccess website.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=======================================================================================================================
+Starting Execution for: sendMessageToAllConnectins || TEST-001: Verify that the user will be able to send an email to All My Connections with out attachments
+Browser: CHROME
+Time Start Test: 2:30:24
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="sendMessageToAllConnectins()[pri:0, instance:com.joormessage.tests.SendMessageToAllTest@18be83e4]" name="sendMessageToAllConnectins" duration-ms="22172" started-at="2017-02-09T02:30:24Z" finished-at="2017-02-09T02:30:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating to JOORAccess website.]]>
+            </line>
+            <line>
+              <![CDATA[Log into JOOR system]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Send a Message button]]>
+            </line>
+            <line>
+              <![CDATA[Composing the email to be sent to ALL connections]]>
+            </line>
+            <line>
+              <![CDATA[Click on Send button]]>
+            </line>
+            <line>
+              <![CDATA[Go to Sent view]]>
+            </line>
+            <line>
+              <![CDATA[Verifying if the email was correctly sent out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMessageToAllConnectins -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:com.joormessage.tests.SendMessageToAllTest@18be83e4]" name="after" is-config="true" duration-ms="7941" started-at="2017-02-09T02:30:46Z" finished-at="2017-02-09T02:30:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendMessageToAllConnectins status=SUCCESS method=SendMessageToAllTest.sendMessageToAllConnectins()[pri:0, instance:com.joormessage.tests.SendMessageToAllTest@18be83e4] output=Navigating to JOORAccess website.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[---TEST CASE PASSED---
+______________________________________________________________________________________________________________________]]>
+            </line>
+            <line>
+              <![CDATA[______________________________________________________________________________________________________________________
+Finishing Execution for: sendMessageToAllConnectins || TEST-001: Verify that the user will be able to send an email to All My Connections with out attachments
+Application: JOOR
+Browser: CHROME
+Time Start Test: 2:30:46
+=======================================================================================================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.joormessage.tests.SendMessageToAllTest -->
+    </test> <!-- SendMessageToAll -->
+    <test name="SendMessageToSpecific" duration-ms="29617" started-at="2017-02-09T05:30:55Z" finished-at="2017-02-09T05:31:24Z">
+      <class name="com.joormessage.tests.SendMessageToConnection">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.joormessage.tests.SendMessageToConnection@6d4b1c02]" name="beforeSuite" is-config="true" duration-ms="22" started-at="2017-02-09T02:30:24Z" finished-at="2017-02-09T02:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="sendMessageToAllConnectins()[pri:0, instance:com.joormessage.tests.SendMessageToConnection@6d4b1c02]" name="sendMessageToAllConnectins" duration-ms="25695" started-at="2017-02-09T02:30:55Z" finished-at="2017-02-09T02:31:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating to JOORAccess website.]]>
+            </line>
+            <line>
+              <![CDATA[Log into JOOR system]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Send a Message button]]>
+            </line>
+            <line>
+              <![CDATA[Composing the email to be sent to specific connection]]>
+            </line>
+            <line>
+              <![CDATA[Click on Send button]]>
+            </line>
+            <line>
+              <![CDATA[Go to Sent view]]>
+            </line>
+            <line>
+              <![CDATA[Verifying if the email was correctly sent out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMessageToAllConnectins -->
+        <test-method status="PASS" signature="before(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.joormessage.tests.SendMessageToConnection@6d4b1c02]" name="before" is-config="true" duration-ms="0" started-at="2017-02-09T02:30:55Z" finished-at="2017-02-09T02:30:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.joormessage.tests.SendMessageToConnection.sendMessageToAllConnectins()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=sendMessageToAllConnectins status=SUCCESS method=SendMessageToConnection.sendMessageToAllConnectins()[pri:0, instance:com.joormessage.tests.SendMessageToConnection@6d4b1c02] output=Navigating to JOORAccess website.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=======================================================================================================================
+Starting Execution for: sendMessageToAllConnectins || TEST-002: Verify that the user will be able to send an email to Specific Connection (Random) with out attachments
+Browser: CHROME
+Time Start Test: 2:30:55
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:com.joormessage.tests.SendMessageToConnection@6d4b1c02]" name="after" is-config="true" duration-ms="3918" started-at="2017-02-09T02:31:21Z" finished-at="2017-02-09T02:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendMessageToAllConnectins status=SUCCESS method=SendMessageToConnection.sendMessageToAllConnectins()[pri:0, instance:com.joormessage.tests.SendMessageToConnection@6d4b1c02] output=Navigating to JOORAccess website.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[---TEST CASE PASSED---
+______________________________________________________________________________________________________________________]]>
+            </line>
+            <line>
+              <![CDATA[______________________________________________________________________________________________________________________
+Finishing Execution for: sendMessageToAllConnectins || TEST-002: Verify that the user will be able to send an email to Specific Connection (Random) with out attachments
+Application: JOOR
+Browser: CHROME
+Time Start Test: 2:31:21
+=======================================================================================================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.joormessage.tests.SendMessageToConnection -->
+    </test> <!-- SendMessageToSpecific -->
+  </suite> <!-- SendMessageTests -->
+</testng-results>

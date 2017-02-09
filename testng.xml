@@ -1,0 +1,23 @@
+<suite name="SendMessageTests">
+
+	<test name="SendMessageToAll">
+
+		<classes>
+
+			<class name="com.joormessage.tests.SendMessageToAllTest" />
+
+		</classes>
+
+	</test>
+	
+	<test name="SendMessageToSpecific">
+
+		<classes>
+
+			<class name="com.joormessage.tests.SendMessageToConnection" />
+
+		</classes>
+
+	</test>
+
+</suite>
